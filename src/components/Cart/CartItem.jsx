@@ -76,6 +76,7 @@ const CartItem = ({ items, onContinueShopping, totalCost }) => {
         Total Cost: <strong>${totalCost}</strong>
       </h6>
       <button onClick={onContinueShopping}>Continue Shopping</button>
+      <button>Checkout</button>
     </div>
   );
 };
